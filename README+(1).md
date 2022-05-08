@@ -1,52 +1,54 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike-sharing 
+-This case study is performed to predict the demand of the bikes using a multi linear regression model
+-The outcome is to find out the independant variables that are helpful for predicting the demand
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Libraries used
+* Conclusions
+* Contact
+* License
 
-<!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Libraries
+- Stats mods
+- numpy
+- pandas
+- matplotlib
+- seaborn
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The final equation of the fitted model is (numerical variables must be scaled according to min and max of train set before using the equation)
+*cnt = 5208.73 \* atemp + 2001.17 \* yr + 650.15 \* summer + 1131.23 \* winter - 690.64 \* Mist - 2028.89 \* Light_snow_rain - 695.40 \* windspeed - 878.96 \* holiday + 77.32 \* weekday + 600.82*
+- atemp,yr and waethersit(Light_snow_rain) are the top three important factors
+- R2 on train set : 0.825
+- R2 on test set : 0.815
+- Model is generalizing well
+- Better predicitons can be done by using a non linear model
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@kvc0608] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## License
+Use of this dataset in publications must be cited to the following publication:
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+
+@article{
+	year={2013},
+	issn={2192-6352},
+	journal={Progress in Artificial Intelligence},
+	doi={10.1007/s13748-013-0040-3},
+	title={Event labeling combining ensemble detectors and background knowledge},
+	url={http://dx.doi.org/10.1007/s13748-013-0040-3},
+	publisher={Springer Berlin Heidelberg},
+	keywords={Event labeling; Event detection; Ensemble learning; Background knowledge},
+	author={Fanaee-T, Hadi and Gama, Joao},
+	pages={1-15}
+}
