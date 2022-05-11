@@ -1,6 +1,6 @@
 # Bike-sharing 
--This case study is performed to predict the demand of the bikes using a multi linear regression model
--The outcome is to find out the independant variables that are helpful for predicting the demand
+- This case study is performed to predict the demand of the bikes using a multi linear regression model
+- The outcome is to find out the independant variables that are helpful for predicting the demand
 
 
 ## Table of Contents
