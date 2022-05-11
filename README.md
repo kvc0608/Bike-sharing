@@ -27,7 +27,7 @@
 - R2 on train set : 0.823
 - R2 on test set : 0.816
 - Model is generalizing well
-- Better predicitons can be done by using a non linear model
+- Better predicitons can be done by using complex model
 
 
 
