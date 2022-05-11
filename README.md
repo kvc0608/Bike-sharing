@@ -24,8 +24,8 @@
 - The final equation of the fitted model is (numerical variables must be scaled according to min and max of train set before using the equation)
 *cnt = 5208.73 \* atemp + 2001.17 \* yr + 650.15 \* summer + 1131.23 \* winter - 690.64 \* Mist - 2028.89 \* Light_snow_rain - 695.40 \* windspeed - 878.96 \* holiday + 77.32 \* weekday + 600.82*
 - atemp,yr and waethersit(Light_snow_rain) are the top three important factors
-- R2 on train set : 0.825
-- R2 on test set : 0.815
+- R2 on train set : 0.823
+- R2 on test set : 0.816
 - Model is generalizing well
 - Better predicitons can be done by using a non linear model
 
